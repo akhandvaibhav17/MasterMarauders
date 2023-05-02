@@ -1,0 +1,53 @@
+body {
+    margin: 0%;
+}
+
+.scroll {
+    animation: bounce 2s ease infinite;
+}
+
+.text {
+    color: white;
+    position: absolute;
+}
+
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button::before,
+button::after {
+    background: none;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.start {
+    background: none;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    border-color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+.start:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.start.a:hover {
+    background-color: red;
+    color: #fff;
+}

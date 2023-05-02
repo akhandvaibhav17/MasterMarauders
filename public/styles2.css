@@ -1,0 +1,196 @@
+body {
+    background-image: url('./images/hogwarts_background.png');
+    background-size: cover;
+    height: 760px;
+    position: relative;
+}
+
+.snitch {
+    height: 300px;
+    width: auto;
+}
+
+.letter-box {
+    margin-top: 5em;
+}
+
+.letter {
+    height: 40em;
+}
+
+.letter-content {
+    font-family: 'Dancing Script', cursive;
+    color: brown;
+}
+
+.login-side-container {
+    margin-top: 10em;
+}
+
+.login-form {
+    background-color: rgba(220, 220, 220, 0.6);
+    padding: 10%;
+    padding-top: 5%;
+    border-radius: 20px;
+}
+
+.login-form-titles {
+    margin: 1em;
+}
+
+.entry {
+    border-radius: 25px;
+    height: 3em;
+    width: 20em;
+    background-color: azure;
+    opacity: 0.6;
+}
+
+.instructions {
+    margin-top: 150px;
+    background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: brown;
+    font-size: 25px;
+}
+
+.main {
+    background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.problem {
+    margin-top: 5em;
+    background-color: rgba(220, 220, 220, 0.6);
+    border-radius: 20px;
+}
+
+.solution {
+    display: inline-block;
+    margin: 80px;
+    border-radius: 20px;
+}
+
+.response {
+    border-radius: 25px;
+    height: 3em;
+    width: 20em;
+    background-color: azure;
+    opacity: 0.6;
+}
+
+button,
+button::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+button::before,
+button::after {
+    background: none;
+    content: '';
+    position: absolute;
+    z-index: -1;
+}
+
+.start {
+    background: none;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.start:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.start.a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.continue {
+    background-color: wheat;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.continue:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.continue.a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.hint {
+    background-color: wheat;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 2em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hint:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.hint.a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.submit {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.submit:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.submit.a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.dead-submit {
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 2em;
+}
+
+.dead-submit:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.dead-submit.a:hover {
+    background-color: wheat;
+    color: black;
+}

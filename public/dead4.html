@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+    <title>dead4</title>
+</head>
+
+<body>
+    <div style="background-image: url(./images/hogwarts_background.png);background-size: cover;height: 760px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-3 text-center">
+                            <button class="hint" disabled>View Hint</button>
+                        </div>
+                        <div class="col-3 ">
+                            <button class="hint">Score-0</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-4 ">
+                        </div>
+                        <div class="col-4 ">
+                            <button class="hint" style="visibility: hidden;">Total Time Taken-</button>
+                        </div>
+                        <div class="col-4 text-right">
+                            <form action="/logout">
+                                <button class="hint" type="submit">Log Out</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main">
+            <div class="row">
+                <div class="col-12 problem">
+                    <h1 style="font-size: 50px; font-family: 'Instrument Serif'">Dead End</h1>
+                    <div class="col-12 text-center">
+                        <img src="./images/dead3.jpeg" alt="" class="img-responsive" style="height: 200px;">
+                    </div>
+                    <p style="font-family: 'Dancing Script', cursive; font-size: 20px;color:brown;">
+                        The note has lead you to deep down in the Chamber of Secrets. After searching for long, there wasn't any single trace of the next note. Now all you can do is go back to previous mentioned locations by paying a price. Once again make sure, the answers
+                        to the clues may lead you to misleading paths, so be careful.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 problem">
+                    <div class="row">
+                        <div class="col-3">
+                            <h4>Go 1 Step Back-</h4><button class="dead-submit"><-Score-3 </button>
+                        </div>
+                        <div class="col-3">
+                            <h4>Go 2 Step Back-</h4><button class="dead-submit"><-Score-7</button>
+                        </div>
+                        <div class="col-3">
+                            <h4>Go 3 Step Back-</h4><button class="dead-submit"><-Score-12</button>
+                        </div>
+                        <div class="col-3">
+                            <h4>Go 4 Step Back-</h4><button class="dead-submit"><-Score-15</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
+</html>
