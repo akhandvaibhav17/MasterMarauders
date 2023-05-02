@@ -15,8 +15,6 @@
         "mongoose": "^7.1.0",
         "nodemon": "^2.0.22"
     },
-    "bin": {
-        "execute": "app2.js"
-    },
+    "devDependencies": {},
     "description": ""
 }
